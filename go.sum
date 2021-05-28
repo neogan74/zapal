@@ -1,0 +1,4 @@
+github.com/neogan74/go-zabbix v0.0.0-20190417181834-6b8176c608b9 h1:CF/AG4Bmp3bdz+4NzDzep2938kbJqezDK8oh2hRwiqM=
+github.com/neogan74/go-zabbix v0.0.0-20190417181834-6b8176c608b9/go.mod h1:VCYKPZ7hwWo+Gocv5upXW1c3WmR/PH0BPYsdO/rfoR4=
+github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
+github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
