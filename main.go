@@ -22,6 +22,15 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+	params := zabbix.HostgroupGetParams{}
+	host_groups, err := session.GetHostgroups(params)
+	if err != nil {
+		panic(err)
+	}
+
+	for i, hg := range host_groups {
+		fmt.Println(i, hg)
+	}
 
 	fmt.Println("Connected to Zabbix API v%s", session.Version())
 }
